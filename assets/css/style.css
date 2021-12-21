@@ -1,16 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap");
+
 body {
   color: white;
   background-color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bebas Neue", cursive;
 }
 
 .navbar {
   margin: -40px 0;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .navbar img {
   height: 36px;
   margin-right: 10px;
+}
+
+.card {
+  color: black;
 }
 
 .card img {
@@ -21,5 +37,6 @@ body {
 @media (max-width: 992px) {
   .navbar {
     margin: 0;
+    background-color: black;
   }
 }
