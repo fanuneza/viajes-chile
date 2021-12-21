@@ -5,6 +5,7 @@ body {
 
 .navbar {
   margin: -40px 0;
+  background-color: rgba(0,0,0,0.2);
 }
 
 .navbar img {
@@ -19,7 +20,6 @@ body {
 
 @media (max-width: 992px) {
   .navbar {
-    background-color: black;
     margin: 0;
   }
 }
