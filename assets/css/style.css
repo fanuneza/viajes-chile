@@ -26,7 +26,8 @@ h6 {
   font-family: "Bebas Neue", cursive;
 }
 
-h2 {
+h2,
+.subtitle i {
   font-size: 40px;
 }
 
@@ -38,10 +39,6 @@ h2 {
 .navbar img {
   height: 36px;
   margin-right: 10px;
-}
-
-.subtitle i {
-  font-size: 40px;
 }
 
 .card {
@@ -78,6 +75,8 @@ footer a:hover {
   opacity: 0.6;
 }
 
+/* Alineación vertical de la navegación del navbar */
+
 #nosotros,
 #destacados,
 #contacto {
@@ -88,6 +87,11 @@ footer a:hover {
 /* Media Query */
 
 @media (max-width: 992px) {
+  h2,
+  .subtitle i {
+    font-size: 32px;
+  }
+
   .navbar {
     margin: 0;
     background-color: black;
